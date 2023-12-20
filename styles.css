@@ -1,0 +1,98 @@
+/* Universal */
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 3% 20%;
+  background-color: aliceblue !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+li {
+  list-style: none;
+}
+
+/* Navigation */
+nav a:hover {
+  color: blue !important;
+}
+
+/* Container */
+/*.container .card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  box-shadow: 1px 2px 10px black;
+} */
+/*.container .card img {
+  height: auto;
+  width: 150px;
+}*/
+
+.card {
+  transition: all 0.8s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.08);
+  transition: 0.5s;
+}
+
+/* Chutput */
+.book-thought {
+  font-style: italic;
+  font-size: 20px;
+  margin-left: 400px;
+  font-weight: bold;
+}
+
+/* Forms */
+.login_form {
+  margin: 20px 450px 100px 500px;
+  background-color: azure;
+  text-align: center;
+  padding: 15px;
+}
+
+.address-page {
+  margin: 30px 300px 100px 300px;
+  background-color: azure;
+  padding: 15px;
+}
+
+.address-page .submit-btn {
+  /* margin: 30px 200px 30px 200px; */
+  align-items: center;
+  position: relative;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  padding: 60px;
+  margin-top: 30px;
+  background-color: azure;
+  text-align: center;
+  height: 200px;
+}
+
+.footer-1 a:hover,
+.footer-2 a:hover,
+.footer-3 a:hover {
+  color: blue !important;
+}
+
+.footer-1, .footer-2, .footer-3 {
+  width: 33%;
+  text-align: center;
+}
+
+footer li {
+  margin: 0;
+}
+.footer-line {
+  border: 2px solid black;
+  margin: 0;
+}
+
